@@ -1,12 +1,13 @@
-import { Route, Routes } from 'react-router-dom';
-import Nav from './Nav';
-import Home from './routes/Home';
-import UseRef from './routes/UseRef';
-import UseCallback from './routes/UseCallback';
-import UseMemo from './routes/UseMemo';
-import UseReducer from './routes/UseReducer';
-import UseLayoutEffect from './routes/UseLayoutEffect';
-import UseId from './routes/UseId';
+import { Route, Routes } from "react-router-dom";
+import Nav from "./Nav";
+import Home from "./routes/Home";
+import UseRef from "./routes/UseRef";
+import UseCallback from "./routes/UseCallback";
+import UseMemo from "./routes/UseMemo";
+import UseReducer from "./routes/UseReducer";
+import UseLayoutEffect from "./routes/UseLayoutEffect";
+import UseId from "./routes/UseId";
+import LearnReactDrafts from "./routes/LearnReactDrafts";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/useRef" element={<UseRef />} />
         <Route path="/useLayoutEffect" element={<UseLayoutEffect />} />
         <Route path="/useId" element={<UseId />} />
+        <Route path="/learnReactDrafts" element={<LearnReactDrafts />} />
       </Routes>
     </div>
   );

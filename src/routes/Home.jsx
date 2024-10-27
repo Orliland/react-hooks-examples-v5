@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -20,6 +20,10 @@ export default function Home() {
       </Link>
       <Link className="home-link" to="/useId">
         useId
+      </Link>
+
+      <Link className="home-link" to="/learnReactDrafts">
+        learnReactDrafts
       </Link>
     </div>
   );
